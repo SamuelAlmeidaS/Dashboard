@@ -1,0 +1,57 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container-dashboard {
+    width: 100%;
+    display: flex;
+}
+
+#container-left {
+    border: 1px solid black;
+    width: 20%;
+}
+
+#container-left h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#container-left ul{margin-top: 120px;}
+
+#container-left ul li {
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+#container-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#container-left ul li a:hover {color: rgba(70, 160, 70, 0.76);}
+
+#container-right {
+    width: 80%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+#cash {
+    border: 1px solid red;
+}
+
+#input-cash {
+    font-size: 35px;
+    border: 1px solid green;
+    width: 250px;
+    height: 150px;
+}
+
+.input-total-cash {
+    margin-top: 45px;
+    text-align: right;
+}
